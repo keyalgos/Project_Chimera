@@ -92,6 +92,7 @@ flowchart TD
     style Signal fill:#fff3e0,stroke:#000,color:#000
     style Risk fill:#fce4ec,stroke:#000,color:#000
     style Execution fill:#f3e5f5,stroke:#000,color:#000
+    linkStyle default stroke:#000
 ```
 
 ### Component Overview
@@ -236,6 +237,7 @@ flowchart TB
     style H1 fill:#e8f5e8,stroke:#000,color:#000
     style M15 fill:#fff3e0,stroke:#000,color:#000
     style M5 fill:#fce4ec,stroke:#000,color:#000
+    linkStyle default stroke:#000
 ```
 
 ### Entry Decision Flow
@@ -278,6 +280,7 @@ flowchart TD
     style Execute fill:#c8e6c9,stroke:#000,color:#000
     style Start fill:#bbdefb,stroke:#000,color:#000
     style End fill:#bbdefb,stroke:#000,color:#000
+    linkStyle default stroke:#000
 ```
 
 ### Entry Conditions
@@ -547,6 +550,7 @@ flowchart LR
     style Decision fill:#e8f5e8,stroke:#000,color:#000
     style REJECT fill:#ffcdd2,stroke:#000,color:#000
     style EXEC fill:#c8e6c9,stroke:#000,color:#000
+    linkStyle default stroke:#000
 ```
 
 **Maximum Confluence Score:** 5 points
@@ -595,6 +599,7 @@ flowchart TB
     style TP2 fill:#fff3e0,stroke:#000,color:#000
     style TP3 fill:#fff3e0,stroke:#000,color:#000
     style TP4 fill:#fff3e0,stroke:#000,color:#000
+    linkStyle default stroke:#000
 ```
 
 #### Rules
@@ -659,6 +664,7 @@ flowchart TD
     style End2 fill:#ffcdd2,stroke:#000,color:#000
     style End3 fill:#ffcdd2,stroke:#000,color:#000
     style End4 fill:#bbdefb,stroke:#000,color:#000
+    linkStyle default stroke:#000
 ```
 
 ### Prerequisites
@@ -1086,6 +1092,7 @@ graph TD
     style T1 fill:#fff8e1,stroke:#000,color:#000
     style T2 fill:#fff8e1,stroke:#000,color:#000
     style T3 fill:#fff8e1,stroke:#000,color:#000
+    linkStyle default stroke:#000
 ```
 
 ---
