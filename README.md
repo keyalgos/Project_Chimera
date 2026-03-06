@@ -87,11 +87,11 @@ flowchart TD
         M --> O[Pyramiding]
     end
     
-    style MarketData fill:#e1f5fe
-    style Analysis fill:#e8f5e8
-    style Signal fill:#fff3e0
-    style Risk fill:#fce4ec
-    style Execution fill:#f3e5f5
+    style MarketData fill:#e1f5fe,stroke:#000,color:#000
+    style Analysis fill:#e8f5e8,stroke:#000,color:#000
+    style Signal fill:#fff3e0,stroke:#000,color:#000
+    style Risk fill:#fce4ec,stroke:#000,color:#000
+    style Execution fill:#f3e5f5,stroke:#000,color:#000
 ```
 
 ### Component Overview
@@ -232,10 +232,10 @@ flowchart TB
     H1 --> M15
     M15 --> M5
     
-    style H4 fill:#e3f2fd
-    style H1 fill:#e8f5e8
-    style M15 fill:#fff3e0
-    style M5 fill:#fce4ec
+    style H4 fill:#e3f2fd,stroke:#000,color:#000
+    style H1 fill:#e8f5e8,stroke:#000,color:#000
+    style M15 fill:#fff3e0,stroke:#000,color:#000
+    style M5 fill:#fce4ec,stroke:#000,color:#000
 ```
 
 ### Entry Decision Flow
@@ -268,16 +268,16 @@ flowchart TD
     CalcSL --> CalcTP[Calculate TP: 1.5×Risk]
     CalcTP --> End([End Tick])
     
-    style Reject1 fill:#ffcdd2
-    style Reject2 fill:#ffcdd2
-    style Reject3 fill:#ffcdd2
-    style Reject4 fill:#ffcdd2
-    style Reject5 fill:#ffcdd2
-    style Reject6 fill:#ffcdd2
-    style Reject7 fill:#ffcdd2
-    style Execute fill:#c8e6c9
-    style Start fill:#bbdefb
-    style End fill:#bbdefb
+    style Reject1 fill:#ffcdd2,stroke:#000,color:#000
+    style Reject2 fill:#ffcdd2,stroke:#000,color:#000
+    style Reject3 fill:#ffcdd2,stroke:#000,color:#000
+    style Reject4 fill:#ffcdd2,stroke:#000,color:#000
+    style Reject5 fill:#ffcdd2,stroke:#000,color:#000
+    style Reject6 fill:#ffcdd2,stroke:#000,color:#000
+    style Reject7 fill:#ffcdd2,stroke:#000,color:#000
+    style Execute fill:#c8e6c9,stroke:#000,color:#000
+    style Start fill:#bbdefb,stroke:#000,color:#000
+    style End fill:#bbdefb,stroke:#000,color:#000
 ```
 
 ### Entry Conditions
@@ -543,10 +543,10 @@ flowchart LR
         B0 --> EXEC
     end
     
-    style Score fill:#fff3e0
-    style Decision fill:#e8f5e8
-    style REJECT fill:#ffcdd2
-    style EXEC fill:#c8e6c9
+    style Score fill:#fff3e0,stroke:#000,color:#000
+    style Decision fill:#e8f5e8,stroke:#000,color:#000
+    style REJECT fill:#ffcdd2,stroke:#000,color:#000
+    style EXEC fill:#c8e6c9,stroke:#000,color:#000
 ```
 
 **Maximum Confluence Score:** 5 points
@@ -587,14 +587,14 @@ flowchart TB
     Entry3 --> TP3[TP Extended]
     Entry4 --> TP4[TP Maximum]
     
-    style Entry1 fill:#bbdefb
-    style Entry2 fill:#c8e6c9
-    style Entry3 fill:#c8e6c9
-    style Entry4 fill:#c8e6c9
-    style TP1 fill:#fff3e0
-    style TP2 fill:#fff3e0
-    style TP3 fill:#fff3e0
-    style TP4 fill:#fff3e0
+    style Entry1 fill:#bbdefb,stroke:#000,color:#000
+    style Entry2 fill:#c8e6c9,stroke:#000,color:#000
+    style Entry3 fill:#c8e6c9,stroke:#000,color:#000
+    style Entry4 fill:#c8e6c9,stroke:#000,color:#000
+    style TP1 fill:#fff3e0,stroke:#000,color:#000
+    style TP2 fill:#fff3e0,stroke:#000,color:#000
+    style TP3 fill:#fff3e0,stroke:#000,color:#000
+    style TP4 fill:#fff3e0,stroke:#000,color:#000
 ```
 
 #### Rules
@@ -653,12 +653,12 @@ flowchart TD
     End2 --> Manage
     End3 --> Manage
     
-    style Start fill:#bbdefb
-    style Execute fill:#c8e6c9
-    style End1 fill:#ffcdd2
-    style End2 fill:#ffcdd2
-    style End3 fill:#ffcdd2
-    style End4 fill:#bbdefb
+    style Start fill:#bbdefb,stroke:#000,color:#000
+    style Execute fill:#c8e6c9,stroke:#000,color:#000
+    style End1 fill:#ffcdd2,stroke:#000,color:#000
+    style End2 fill:#ffcdd2,stroke:#000,color:#000
+    style End3 fill:#ffcdd2,stroke:#000,color:#000
+    style End4 fill:#bbdefb,stroke:#000,color:#000
 ```
 
 ### Prerequisites
@@ -1075,17 +1075,17 @@ graph TD
     Core --> V
     Root --> Scripts
     
-    style Root fill:#e3f2fd
-    style Include fill:#e8f5e8
-    style Analysis fill:#fff3e0
-    style Config fill:#fce4ec
-    style Core fill:#f3e5f5
-    style MarketData fill:#e1f5fe
-    style Signal fill:#e1f5fe
-    style Scripts fill:#fff8e1
-    style T1 fill:#fff8e1
-    style T2 fill:#fff8e1
-    style T3 fill:#fff8e1
+    style Root fill:#e3f2fd,stroke:#000,color:#000
+    style Include fill:#e8f5e8,stroke:#000,color:#000
+    style Analysis fill:#fff3e0,stroke:#000,color:#000
+    style Config fill:#fce4ec,stroke:#000,color:#000
+    style Core fill:#f3e5f5,stroke:#000,color:#000
+    style MarketData fill:#e1f5fe,stroke:#000,color:#000
+    style Signal fill:#e1f5fe,stroke:#000,color:#000
+    style Scripts fill:#fff8e1,stroke:#000,color:#000
+    style T1 fill:#fff8e1,stroke:#000,color:#000
+    style T2 fill:#fff8e1,stroke:#000,color:#000
+    style T3 fill:#fff8e1,stroke:#000,color:#000
 ```
 
 ---
