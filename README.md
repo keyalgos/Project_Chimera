@@ -1,11 +1,15 @@
 # CHIMERA - Advanced Algorithmic Trading System
 
+An institutional-grade algorithmic trading system that combines multi-timeframe trend analysis, harmonic pattern recognition, and correlation-based filtering to execute precision trades on XAUUSD.
+
+---
+
+
 **Version:** 1.3
 **Platform:** MetaTrader 5
 **Author:** KeyAlgos
 **Website:** https://keyalgos.com
 
----
 
 ## Table of Contents
 
