@@ -215,14 +215,14 @@ flowchart TB
     end
     
     subgraph M15["M15: Setup Timeframe"]
-        M15A[Detect Harmonic Patterns] --> M15B{Gartley|Bat|ABCD|Cypher?}
+        M15A[Detect Harmonic Patterns] --> M15B{Pattern Type?}
         M15B -->|Detected| M15P[Pattern Zone PRZ]
         M15B -->|None| M15N[No Setup]
         M15P --> M15V[Calculate ATR]
     end
     
     subgraph M5["M5: Execution Trigger"]
-        M5A[Detect RSI Divergence] --> M5B{Bullish|Bearish?}
+        M5A[Detect RSI Divergence] --> M5B{Divergence?}
         M5B -->|Bullish| M5L[BUY Signal]
         M5B -->|Bearish| M5S[SELL Signal]
         M5B -->|None| M5N[No Trigger]
