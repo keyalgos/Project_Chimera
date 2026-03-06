@@ -461,7 +461,6 @@ stateDiagram-v2
     style Foundation fill:#e3f2fd,stroke:#000,color:#000
     style Acceleration fill:#fff3e0,stroke:#000,color:#000
     style HyperGrowth fill:#c8e6c9,stroke:#000,color:#000
-    style [*] fill:#bbdefb,stroke:#000,color:#000
 ```
 
 #### Phase 1: Foundation ($300 → $1,000)
@@ -1031,7 +1030,8 @@ To backtest CHIMERA:
 
 ```mermaid
 graph TD
-    subgraph Root["Project Root"]
+    Root["Project Root"]
+    subgraph RootSub["Project Root"]
         CHIMERA["CHIMERA.mq5<br/>(Main EA)"]
         README["README.md<br/>(Documentation)"]
         DESIGN["Project_Design_Doc.md<br/>(Design Spec)"]
@@ -1076,6 +1076,7 @@ graph TD
         T3["TestAllSymbolsTimeframes.mq5"]
     end
     
+    Root --> Include
     CHIMERA --> Include
     Include --> Analysis
     Include --> Config
@@ -1087,6 +1088,7 @@ graph TD
     Root --> Scripts
     
     style Root fill:#e3f2fd,stroke:#000,color:#000
+    style RootSub fill:#e3f2fd,stroke:#000,color:#000
     style Include fill:#e8f5e8,stroke:#000,color:#000
     style Analysis fill:#fff3e0,stroke:#000,color:#000
     style Config fill:#fce4ec,stroke:#000,color:#000
