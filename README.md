@@ -6,8 +6,9 @@ An institutional-grade algorithmic trading system that combines multi-timeframe 
 
 
 **Version:** 1.3
+
 **Platform:** MetaTrader 5
-**Author:** KeyAlgos
+
 **Website:** https://keyalgos.com
 
 
