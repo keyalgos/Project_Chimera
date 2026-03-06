@@ -3,8 +3,8 @@
 //|                        Project Chimera v9.0 Trend Alignment Core |
 //|                                  Copyright 2024, Project Chimera |
 //+------------------------------------------------------------------+
-#property copyright "Quantech Innovation"
-#property link "https://quantechinnovation.com"
+#property copyright "KeyAlgos"
+#property link "https://keyalgos.com"
 #property strict
 
 // Include the config from the Config directory (relative path from Analysis/)

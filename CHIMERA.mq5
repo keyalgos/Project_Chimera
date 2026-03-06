@@ -2,8 +2,8 @@
 //|                                                      CHIMERA.mq5 |
 //|                        Chimera EA v1.2 - Pattern Detection       |
 //+------------------------------------------------------------------+
-#property copyright "Quantech Innovation"
-#property link "https://quantechinnovation.com"
+#property copyright "KeyAlgos"
+#property link "https://keyalgos.com"
 #property version "1.30"
 
 //--- Include Configuration

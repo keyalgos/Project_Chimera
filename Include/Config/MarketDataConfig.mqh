@@ -1,8 +1,8 @@
 //+------------------------------------------------------------------+
 //| Market Data Configuration                                         |
 //+------------------------------------------------------------------+
-#property copyright "Quantech Innovation"
-#property link "https://quantechinnovation.com"
+#property copyright "KeyAlgos"
+#property link "https://keyalgos.com"
 
 //--- Symbol-Timeframe Configuration Structure
 struct SSymbolTimeframeConfig {

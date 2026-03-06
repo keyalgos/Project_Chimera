@@ -2,8 +2,8 @@
 //|                                          CCorrelationAnalyzer.mqh |
 //|                    Gold-DXY Correlation Analysis (Pearson)        |
 //+------------------------------------------------------------------+
-#property copyright "Quantech Innovation"
-#property link "https://quantechinnovation.com"
+#property copyright "KeyAlgos"
+#property link "https://keyalgos.com"
 #property strict
 
 #include "../Config/SignalConfig.mqh"

@@ -2,8 +2,8 @@
 //|                                                 SignalConfig.mqh |
 //|                         Chimera EA - Signal Configuration        |
 //+------------------------------------------------------------------+
-#property copyright "Quantech Innovation"
-#property link "https://quantechinnovation.com"
+#property copyright "KeyAlgos"
+#property link "https://keyalgos.com"
 
 //+------------------------------------------------------------------+
 //| Global Signal Settings                                            |
