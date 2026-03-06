@@ -457,6 +457,11 @@ stateDiagram-v2
         Boost: 1.3×
         Duration: 2-4 days
     end note
+    
+    style Foundation fill:#e3f2fd,stroke:#000,color:#000
+    style Acceleration fill:#fff3e0,stroke:#000,color:#000
+    style HyperGrowth fill:#c8e6c9,stroke:#000,color:#000
+    style [*] fill:#bbdefb,stroke:#000,color:#000
 ```
 
 #### Phase 1: Foundation ($300 → $1,000)
