@@ -42,11 +42,11 @@ CHIMERA does not trade on a single indicator or pattern. It trades on **confluen
 
 A trade is only executed when ALL of the following conditions are met:
 
-1. ✅ **H4/H1 Trend Alignment** — The macro trend is in our favor
-2. ✅ **DXY Correlation Confirmation** — The dollar is moving in the opposite direction (< -0.6 correlation)
-3. ✅ **M15 Harmonic Pattern OR M5 RSI Divergence** — A high-probability reversal signal has formed
-4. ✅ **Session Filter** — Trading during London or NY session (high liquidity)
-5. ✅ **Spread Filter** — Spread is below 25 pips (cost control)
+1. **H4/H1 Trend Alignment** — The macro trend is in our favor
+2. **DXY Correlation Confirmation** — The dollar is moving in the opposite direction (< -0.6 correlation)
+3. **M15 Harmonic Pattern OR M5 RSI Divergence** — A high-probability reversal signal has formed
+4. **Session Filter** — Trading during London or NY session (high liquidity)
+5. **Spread Filter** — Spread is below 25 pips (cost control)
 
 When all five align, we have an A++ setup worthy of aggressive position sizing.
 
